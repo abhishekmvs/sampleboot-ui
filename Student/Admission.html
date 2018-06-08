@@ -1,0 +1,354 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="../css/mainStyles.css">
+ </head>
+<body>
+<header>
+  <div class="logo">
+    <img src="../images/school.png">
+  </div>
+  <div class="textright">
+        <div class="year">
+          <p>Academic Year 2017-2018</p>
+        </div>
+        <div class="Date"><p>26/09/2017</p></div>
+        <div class="logout">
+          <i class="fa fa-sign-out" aria-hidden="true">Logout</i>
+        </div>
+  </div>
+</header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">   
+                 <li>
+                    <a href="#" class="hvr-pop transition">
+                       <!--<i class="fa fa-th-large" aria-hidden="true"></i>-->
+                        <img src="../images/analytics.png" width="30px" height="30">
+                        <p>Dashboard</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="hvr-pop transition">
+                      <img src="../images/student.png" width="30px" height="30">
+                      <p>Student</p>
+                    </a>
+                  </li>
+                   <li><a href="#" class="hvr-pop transition">
+                      <img src="../images/staff.png" width="30px" height="30">
+                       <p>Staff</p>
+                    </a>
+                  </li>
+                   <li><a href="#" class="hvr-pop transition">
+                       <img src="../images/Attendance.png" width="30px" height="30">
+                       <p>Attendence</p>
+                    </a>
+                  </li>
+                   <li><a href="#" class="hvr-pop transition">
+                         <img src="../images/Academics.png" width="30px" height="30">
+                       <p>Acadamics</p>
+                    </a>
+                  </li>
+                   <li><a href="#" class="hvr-pop transition">
+                         <img src="../images/Assignments.png" width="30px" height="30">
+                       <p>Assignments</p>
+                    </a>
+                  </li>
+                   <li><a href="#" class="hvr-pop transition">
+                        <img src="../images/Examination.png" width="30px" height="30">
+                       <p>Examinations</p>
+                    </a>
+                  </li>
+                   <li><a href="#" class="hvr-pop transition">
+                       <img src="../images/Timetable.png" width="30px" height="30">
+                      <p>Timetable</p>
+                    </a>
+                  </li>  
+                   <li><a href="#" class="hvr-pop transition">
+                          <img src="../images/money.png" width="30px" height="30">
+                       <p>Fee</p>
+                    </a>
+                  </li>  
+                   <li><a href="#" class="hvr-pop transition">
+                        <img src="../images/Library.png" width="30px" height="30">
+                       <p>Library</p>
+                    </a>
+                  </li>  
+                  <li><a href="#" class="hvr-pop transition">
+                       <img src="../images/Transport.png" width="30px" height="30">
+                       <p>Transport</p>
+                    </a>
+                  </li>  
+              </ul>
+       </div>
+  </div>
+</nav> 
+  <div class="row background">
+  <div class="container">
+      <h1>Student Management</h1>
+       <ul class="links">
+          <li>
+              <a href="">Information</a>
+          </li>
+          <li>/
+              <a href="Student/Admission.html">Admission</a>
+          </li>
+      </ul>        
+  </div>
+</div> 
+    <div class="container">
+      <div class="row">
+      <div class="Admission">
+        <div class="col-md-12">
+            <div class="backwhite">
+              <section class="studentadmission">
+                <h1>Student Admission</h1>
+                     <div class="col-md-3">
+                           <div class="form-group">
+                     <label for="inputdefault">Admission Number</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                   </div>
+                   </div>
+                   <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="inputdefault">Roll Number</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div> 
+                     </div>
+                     <div class="col-md-3">
+                         <div class="form-group">
+                             <label>Class</label>
+                            <select class="form-control" id="sel1">
+                             <option>Select...</option>
+                             <option>Class 1</option>
+                             <option>Class 2</option>
+                         </select>
+                      </div>
+                      </div>
+                      <div class="col-md-3"> 
+                       <div class="form-group">
+                     <label>Section</label>
+                          <select class="form-control" id="sel1">
+                            <option>Select...</option>
+                            <option>Section 1A</option>
+                            <option>Section 2A</option>
+                         </select>
+                    </div> 
+                    </div>
+                        <div class="col-md-3">
+                        <div class="form-group">
+                         <label for="inputdefault">ForeName</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                     </div>
+                     <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="inputdefault">SurName</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                     </div>
+                     <div class="col-md-3">
+                     <div class="form-group">
+                     <label>Gender</label>
+                          <select class="form-control" id="sel1">
+                            <option>Select...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                         </select>
+                    </div> 
+                    </div>
+                    <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="inputdefault">Date of Birth</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                </div>                
+                   <div class="col-md-3">
+                   <div class="form-group">
+               <label>Category</label>
+                    <select class="form-control" id="sel1">
+                      <option>Select...</option>
+                      <option>General</option>
+                      <option>OBC</option>
+                      <option>Minority</option>
+                   </select>
+              </div> 
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+               <label>Religion</label>
+                    <select class="form-control" id="sel1">
+                      <option>Select...</option>
+                    </select>
+              </div> 
+              </div>
+              <div class="col-md-3">
+              <div class="form-group">
+               <label>Contact</label>
+                    <select class="form-control" id="sel1">
+                      <option>Select...</option>
+                    </select>
+              </div> 
+              </div>
+              <div class="col-md-3">
+              <div class="form-group">
+               <label>Email</label>
+                    <select class="form-control" id="sel1">
+                      <option>Select...</option>
+                    </select>
+              </div> 
+                </div>
+                 <div class="col-md-4">
+                  <div class="form-group">
+               <label>Admission Date</label>
+                    <select class="form-control" id="sel1">
+                      <option>Select...</option>
+                    </select>
+              </div>
+              </div>
+               <div class="col-md-4">
+                  <div class="form-group">
+                   <label>Student Photo</label><br> 
+                   <button><img src="../images/Upload.png" alt="Smiley face" width="30" height="30">Choose Files</button>
+                  </div>
+                </div>
+              </section>
+              <section class="parentdetails">
+               <h1>Parent/Guardian details</h1>
+                     <div class="col-md-4">
+                       <div class="form-group">
+                       <label for="inputdefault">Father Name</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                     </div>
+                     <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="inputdefault">Contact</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                     </div>
+                     <div class="col-md-4">
+                     <div class="form-group">
+                        <label for="inputdefault">Occupation</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                   </div>
+                     <div class="col-md-4">
+                      <div class="form-group">
+                     <label for="inputdefault">Mother Name</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                   </div>
+                   </div>
+                   <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="inputdefault">Contact</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                   </div>
+                   </div>
+                   <div class="col-md-4">
+                   <div class="form-group">
+                      <label for="inputdefault">Occupation</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                   </div>
+                </div>
+                     <div class="col-md-4">
+                      <div class="form-group">
+                       <label for="inputdefault">Guardian Name</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                     </div>
+                     <div class="col-md-4">
+                    <div class="form-group">
+                     <label for="inputdefault">Guardian Relation</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                     </div>
+                     <div class="col-md-4">
+                   <div class="form-group">
+                     <label for="comment">Guardian Address</label>
+                     <textarea class="form-control" placeholder="Enter here.." rows="5" id="comment"></textarea>
+                   </div>
+                 </div>
+                     <div class="col-md-3">
+                      <div class="form-group">
+                       <label for="inputdefault">Guardian Phone</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                   </div>
+                   <div class="col-md-3">
+                    <div class="form-group">
+                     <label for="inputdefault">Guardian Qualification</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                     </div>
+                </div>
+              </section>
+              <section class="Studentaddress">
+               <div class="row">
+              <h1>Student Address</h1> 
+                <div class="col-md-6">
+                  <div class="form-group">
+                 <label for="comment">Current</label>
+                  <textarea class="form-control" placeholder="Enter here.." rows="5" id="comment"></textarea>
+                   </div>
+                   </div>
+                   <div class="col-md-6">
+                   <div class="form-group">
+                    <label for="comment">Permanent</label>
+                <textarea class="form-control" placeholder="Enter here.." rows="5" id="comment"></textarea>
+                   </div>
+                   
+                </div>
+                
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                   <label>School Bus Route</label>
+                    <select class="form-control" id="sel1">
+                      <option>Select...</option>
+                    </select>
+              </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group" id="aadhar">
+                 <label for="inputdefault">Aadhar Number</label>
+                     <input class="form-control" placeholder="Enter..." id="inputdefault" type="text">
+                    
+                   </div>
+                
+                </div>            
+              </section>
+              <section class="uploaddocuments">
+              <!--<div class="col-md-12">-->
+                <div class="row" style="margin-left: 20px;
+                ">
+                    <h1>Upload Documents</h1>
+                     <button><img src="../images/Upload.png" alt="Smiley face" width="30" height="30">Choose Files</button>
+                    </div>
+               <!--</div>-->
+               </section>
+               </div>     
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"></script>
+    </body>
+    </html>
